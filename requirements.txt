@@ -1,0 +1,3 @@
+numpy>=1.24
+# optional, only for generating the convergence figure
+matplotlib>=3.6
