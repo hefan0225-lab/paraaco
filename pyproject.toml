@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "paraaco"
+version = "1.0.0"
+description = "Portable shared-memory parallel MAX-MIN Ant System for the Euclidean TSP"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "The ParaACO Authors" }]
+keywords = ["ant colony optimization", "MMAS", "travelling salesman problem", "parallel computing", "metaheuristics"]
+dependencies = ["numpy>=1.24"]
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.6"]
+
+[tool.setuptools]
+packages = ["aco"]
