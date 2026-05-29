@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "ParaACO: a portable shared-memory parallel MAX-MIN Ant System for the Euclidean TSP"
+version: 1.0.0
+license: MIT
+authors:
+  - family-names: "<Surname>"
+    given-names: "<Given name>"
+# Add the SoftwareX DOI once assigned:
+# doi: 10.1016/j.softx.XXXX.XXXXXX
